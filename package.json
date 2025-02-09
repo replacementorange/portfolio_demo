@@ -1,0 +1,16 @@
+{
+  "name": "cv_demo",
+  "version": "1.0.0",
+  "description": "Simple CV/portfolio",
+  "license": "None",
+  "author": "replacementorange",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/main.scss dist/css/main.css"
+  },
+  "dependencies": {
+    "sass": "^1.83.4"
+  }
+}
