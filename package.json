@@ -6,11 +6,14 @@
   "author": "replacementorange",
   "type": "commonjs",
   "main": "index.js",
+  "homepage": "https://replacementorange.github.io/portfolio_demo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch scss/main.scss dist/css/main.css"
+    "sass": "sass --watch scss/main.scss dist/css/main.css",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.83.4"
   }
 }
