@@ -1,0 +1,102 @@
+@media screen and (max-width: 550px) {
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  .skills ul {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills li {
+    white-space: nowrap;
+  }
+  .skills .technologies {
+    margin-left: 0;
+  }
+  .vl {
+    display: none;
+  }
+}
+.text-secondary {
+  color: orange;
+}
+
+h1, h2, h3, h4, h5, h6, #main-footer {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p, a, ul, li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  line-height: 1.5;
+}
+
+header {
+  padding: 1rem;
+}
+header h1 {
+  text-align: center;
+}
+header .git-link {
+  text-align: center;
+}
+header .bio p {
+  text-align: left;
+}
+
+main {
+  padding: 2rem;
+  min-height: calc(100vh - 60px);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+.project h3, .project h6 {
+  margin: 0;
+}
+.project ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+.project ul li {
+  padding: 5px 0;
+}
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skills ul {
+  width: 50%;
+  box-sizing: border-box;
+}
+.skills .technologies {
+  margin-left: 2%;
+}
+
+.vl {
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid black;
+  height: 175px;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  height: 60px;
+}
+
+/*# sourceMappingURL=main.css.map */
