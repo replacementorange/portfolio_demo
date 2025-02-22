@@ -2,29 +2,7 @@
 
 // Screen width max 550px
 @include config.mediaSm {
-    .skills {
-
-        flex-direction: column; // Stack elements vertically
-        justify-content: center; // Center content vertically
-        align-items: left; // Center content horizontally
-        
-        ul {
-          width: 100%; // Full width on small screens
-          margin-bottom: 20px; // Add some space between the lists
-        }
-
-        li {
-            white-space: nowrap; // Prevent line breaks
-        }
-        
-        .technologies {
-          margin-left: 0; // Remove horizontal margin for vertical layout
-        }
-    }
-    
-      .vl {
-        display: none; // Hide the vertical line on mobile devices
-      }
+    //
 }
 
 // Screen width max 768px

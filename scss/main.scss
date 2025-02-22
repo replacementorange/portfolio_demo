@@ -43,7 +43,7 @@ header {
 
 // Main
 main {
-    padding: 2rem;
+    padding: 1rem;
     min-height: calc(100vh - 60px);
 }
 
@@ -56,44 +56,10 @@ main {
       margin: 0;
     }
   
-    ul {
-      //list-style-type: none; // Remove bullet points
-      padding: 0;
-      margin: 0px; // Remove space above and below the list
-  
-      li {
-        padding: 5px 0; // Vertical spacing between list itemsworked on making portfolio responsive on smartphones.
-      }
-    }
-  
     &:not(:last-child) {
       border-bottom: 1px solid #ccc; // Add a bottom border
-      margin-bottom: 20px;
     }
 }
-
-// Skills and Technologies
-.skills {
-    display: flex;
-    justify-content: space-between;
-  
-    ul {
-      width: 50%;
-      box-sizing: border-box;
-    }
-  
-    .technologies {
-      margin-left: 2%;
-    }
-}
-
-// Vertical line
-.vl {
-    margin: 0;
-    padding: 0;
-    border-left: 1px solid black;
-    height: 175px;
-  }
 
 // Footer
 #main-footer {
